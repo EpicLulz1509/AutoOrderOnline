@@ -28,7 +28,7 @@ def login_details():
     driver.find_element_by_xpath("//*[@id='__next']/div/div/div[1]/div[1]/div/div[3]/div[3]/div[1]/div[2]").click()
     time.sleep(3)
     mobile = driver.find_element_by_xpath("//*[@id='__next']/div/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/div/div[3]/div/div/div/div[2]/div/form/div[1]/div[2]/input")
-    mobile.send_keys("8688424757")
+    mobile.send_keys("00000000")
     driver.find_element_by_xpath("//*[@id='__next']/div/div/div[1]/div[1]/div/div[3]/div[3]/div[2]/div/div[3]/div/div/div/div[2]/div/form/div[2]/input").click()
     time.sleep(5)
     print("Enter 6 digit otp sent to given mobile number")
